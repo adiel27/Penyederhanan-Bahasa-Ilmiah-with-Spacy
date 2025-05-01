@@ -1,0 +1,5 @@
+# Masukkan kode ini ke Google Colab
+
+!python -m spacy download xx_ent_wiki_sm
+import spacy # Import the spacy module before using it
+nlp = spacy.load("xx_ent_wiki_sm")
